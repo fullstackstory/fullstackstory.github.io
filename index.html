@@ -4,20 +4,32 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Contents</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <ol class="category-list-list">
+    {% for category in site.categories %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <h2 class="page-heading">
+          {{ category[0] | capitalize }}
         </h2>
+
+        <ol class="post-list">
+          {% for post in category[1] %}
+            <li>
+              <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+ -->
+              <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h3>
+
+              <blockquote>
+                {{ post.excerpt }}
+              </blockquote>
+            </li>
+          {% endfor %}
+        </ol>
       </li>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </ol>
 
 </div>

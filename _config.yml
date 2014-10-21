@@ -12,3 +12,5 @@ github_username:  fullstackstory
 
 # Build settings
 markdown: kramdown
+
+permalink: none

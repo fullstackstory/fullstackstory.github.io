@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Introduction: The Concept"
-date:   2014-10-20 19:03:08
-categories: introduction
+title:  "The Concept"
+categories: "introduction"
 ---
+
+So, what is the full stack story? Why am I doing this?
 
 ## The Motivation
 

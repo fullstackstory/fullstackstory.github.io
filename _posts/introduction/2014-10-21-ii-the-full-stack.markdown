@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Introduction: The Full Stack"
-date:   2014-10-20 19:03:08
-categories: introduction
+title:  "The Full Stack"
+categories: "introduction"
 ---
 
 The title "full stack developer" is totally in fashion. It may sound like vapid posturing, but does it have any meaning?
