@@ -23,7 +23,7 @@ layout: default
               </h3>
 
               <blockquote>
-                {{ post.excerpt }}
+                {{ post.excerpt | strip_html }}
               </blockquote>
             </li>
           {% endfor %}
