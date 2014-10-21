@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "The Concept"
-categories: "introduction"
+category: "introduction"
+tags: "WIP"
 ---
 
 So, what is the full stack story? Why am I doing this?

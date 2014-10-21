@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "The Full Stack"
-categories: "introduction"
+category: "introduction"
+tags: "WIP"
 ---
 
 The title "full stack developer" is totally in fashion. It may sound like vapid posturing, but does it have any meaning?
