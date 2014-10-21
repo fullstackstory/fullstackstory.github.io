@@ -16,6 +16,6 @@ The stack we're going to use is;
 * Postgres for our database
 * ElasticSearch for search
 * Docker and AWS for deployment
-* Go and Riak scaling
+* Go and Riak for scaling
 
 So come join us for the ride!

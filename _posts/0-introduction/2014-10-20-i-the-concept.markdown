@@ -5,7 +5,7 @@ category: "introduction"
 tags: "WIP"
 ---
 
-So, what is the full stack story? Why am I doing this?
+So, what is the full stack story? Why am I doing this? Who am I?
 
 ## The Motivation
 

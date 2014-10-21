@@ -12,4 +12,10 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.next %}
+    <nav>
+      <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">Next: {{ page.category | capitalize }}: {{ page.title }}</a>
+    </nav>
+  {% endif %}
+
 </div>
