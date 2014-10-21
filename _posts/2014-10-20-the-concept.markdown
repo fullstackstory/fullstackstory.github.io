@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction: The Concept"
 date:   2014-10-20 19:03:08
-categories: introduction meta
+categories: introduction
 ---
 
 ## The Motivation
