@@ -4,8 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This blog aims to teach you how to be a full-stack developer.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Over a number of months we will come up with an idea, validate it, and build it out into a fully working product.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The stack we're going to use is;
+
+* Bootstrap for layout and styling
+* Ember.js for building a web UI
+* Ruby on Rails for building a server-side API
+* Postgres for our database
+* ElasticSearch for search
+* Docker and AWS for deployment
+* Go and Riak scaling
+
+So come join us for the ride!
