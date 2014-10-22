@@ -12,9 +12,15 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.previous %}
+    <nav>
+      <a class="post-link" href="{{ page.previous.url | prepend: site.baseurl }}">Previous: {{ page.previous.category | capitalize }} - {{ page.previous.title }}</a>
+    </nav>
+  {% endif %}
+
   {% if page.next %}
     <nav>
-      <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">Next: {{ page.category | capitalize }}: {{ page.title }}</a>
+      <a class="post-link" href="{{ page.next.url | prepend: site.baseurl }}">Next: {{ page.next.category | capitalize }} - {{ page.next.title }}</a>
     </nav>
   {% endif %}
 
