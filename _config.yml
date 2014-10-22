@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   building a full-stack product from scratch
   and hoping to learn and teach at the same time
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fullstackstory.github.io/" # the base hostname & protocol for your site
+url: "http://fullstackstory.com/" # the base hostname & protocol for your site
 twitter_username: matthewrudy
 github_username:  fullstackstory
 
