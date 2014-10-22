@@ -15,3 +15,7 @@ markdown: kramdown
 
 # /introduction/ii-some-title
 permalink: "/:categories/:title/"
+
+# Plugins
+gems:
+  - jekyll-sitemap
